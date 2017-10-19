@@ -1,0 +1,439 @@
+body {
+	font-family: Georgia, serif;
+}
+
+#kapsul {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+#kapsul #ustBaslik {
+	width: 100%;
+	background: #ba2e1f;
+	height: 50px;
+}
+
+#ustLinkler ul li {
+	display: inline-block;
+	color:#ffffff;
+}
+
+#ustLinkler ul li a {
+	color: #ffffff !important;
+	text-decoration: none;
+}
+
+#ustLinkler ul li a:hover {
+	color: #5f1912 !important;
+}
+
+#ustLinkler {
+	padding: 17px 0 0 17px;
+	width: 49%;
+	float: left;
+}
+
+#arama {
+	width: 49%;
+	float: left;
+	text-align: right;
+	position: relative;
+}
+
+#arama input {
+	position: relative;
+	top: 13px;
+	right: 20px;
+	height: 20px;
+	width: 210px;
+	border: none;
+	outline: none;
+	-webkit-border-radius: 30px 30px 30px 30px;
+	border-radius: 30px 30px 30px 30px;
+	padding-left:20px;
+}
+
+#arama span {
+	display: block;
+	background: #ba2e1f;
+	width: 18px;
+	height: 18px;
+
+	position: absolute;
+	z-index: 1;
+	top: 14px;
+	right: 26px;
+
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
+#arama i {
+	font-size: 12px;
+	color: #ffffff;
+	margin-right: 3px;
+}
+
+header {
+	height: 135px;
+	width: 100%;
+}
+
+header #logo, header #sosyal {
+	float: left;
+	width: 49%;
+}
+
+header #logo h1 {
+	font-size: 36px;
+}
+
+header #logo h1:first-letter {
+	font-size: 46px;
+}
+
+header #logo h2 {
+	font-size: 12px;	
+}
+
+.linkicon {
+	width: 32px;
+	height: 32px;
+	background: #333333;
+	display: inline-block;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	margin: 0 3px 0 3px;
+	position: relative;
+
+
+
+}
+
+.linkicon i {
+	color:#ffffff;
+	position: absolute;
+	z-index: 999;
+	right:9px;
+	top:8px;
+}
+
+.linkicon:hover {
+
+	background: #ee802f;
+
+}
+
+
+#sosyal {
+	text-align: right;
+	padding-top: 60px;
+}
+
+#logo {
+	padding-top: 40px;
+}
+
+.fa-google-plus {
+	left: 6px;
+}
+
+nav {
+	text-align: center;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,474747+50,2c2c2c+50,474747+50,111111+50,131313+100 */
+background: #4c4c4c; /* Old browsers */
+background: -moz-linear-gradient(top,  #4c4c4c 0%, #474747 50%, #2c2c2c 50%, #474747 50%, #111111 50%, #131313 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #4c4c4c 0%,#474747 50%,#2c2c2c 50%,#474747 50%,#111111 50%,#131313 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #4c4c4c 0%,#474747 50%,#2c2c2c 50%,#474747 50%,#111111 50%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+-webkit-border-radius: 4px;
+border-radius: 4px;
+height: 40px;
+}
+
+nav a {
+	text-decoration: none;
+	margin:5px;
+	color: #ffffff;
+	position: relative;
+	top:12px;
+}
+
+nav a:hover {
+	color: #ba2e1f;
+}
+
+#slider {
+	height: 440px;
+	width: 100%;
+	padding-top: 25px;
+}
+
+#slider .resim {
+	width: 400px;
+	height: 440px;
+	float: left;
+}
+
+#slider .yazi {
+	float: left;
+	width: 700px;
+	position: relative;
+	margin: 60px 0 0 50px;
+	height: 330px;
+}
+
+#slider .yazi h1 {
+	font-size: 86px;
+	line-height: 105px;
+}
+
+#slider .yazi span {
+	font-size: 22px;
+	color: #666666;
+	line-height: 30px;
+}
+
+main {
+	background-color: #f2f2f2;
+}
+
+main #about, main #service, main #client {
+	width: 30%;
+	height: 550px;
+	margin: 1.5%;
+	float: left;
+	padding-top: 40px;
+
+
+}
+
+.floatTemizle {
+	clear: both;
+}
+
+.subTitle{
+	font-size: 26px;
+	color: #333333;
+	margin-bottom: 50px;
+
+}
+
+#about figure img{
+	border: 5px solid #f2f2f2;
+	width: 100%;
+}
+
+
+
+#about p {
+	color: #878787;
+	font-size: 16px;
+	margin-top: 20px;
+	line-height: 18px;
+	text-align:justify;
+}
+
+.moreLink {
+	display: block;
+	color: #ba2e1f;
+	text-decoration: none;
+	position: absolute;
+	right: 0;
+	margin-top: 25px;
+	bottom: 0;
+
+}
+
+.moreLink:hover {
+	color: #7e1e14;
+}
+
+#about {
+	position: relative;
+
+}
+
+.hizmet figure {
+	float: left;
+	margin-right: 15px;
+}
+
+.hizmet h3 {
+	font-size: 16px;
+	color: #5c5c5c;
+	line-height: 28px;
+}
+
+.hizmet p {
+	color: #878787;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.hizmet {
+	clear: both;
+	margin-bottom: 30px;
+}
+
+#service {
+	position: relative;
+}
+
+#client {
+	position: relative;
+}
+
+.comment h3 b{
+	font-weight: bold;
+}
+
+.comment h3 {
+	color: #989898;
+	margin-left: 60px;
+}
+
+.comment h3:before {
+	content: '“';
+	font-family: Georgia, serif;
+	font-size: 150px;
+	position: absolute;
+	left: 0;
+	top: -25px;
+	color: #d4e4e4;
+}
+
+.comment {
+	margin-top: 50px;
+	position: relative;
+	top: 15px;
+	height: 160px;
+}
+
+.comment p {
+	line-height: 20px;
+	margin-top: 20px;
+	color: #888888;
+	font-size: 16px;
+	text-align:justify;
+	margin-bottom: 100px;
+}
+
+footer #tweet, footer #links , footer #blog, footer #contact{
+	width: 23%;
+	height: 550px;
+	float: left;
+	margin-left: 20px;
+	line-height: 20px;
+	margin-top: 30px;
+	color: #666666;
+}
+
+footer h3 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+footer #tweet p {
+	margin-top: 25px;
+}
+
+footer #tweet  a {
+	color: #b82c1f;
+	text-decoration: none;
+}
+
+footer #tweet span{
+	display: block; 
+}
+
+#links ul li a:before{
+	content: '»';
+	font-family:Georgia,serif;
+	font-size: 15px;
+	bottom: 20px;
+	top: 10px;
+	display: inline-block;
+	
+}
+#links ul li a{
+	text-decoration: none;
+	color:#666666;
+
+}
+#blog {
+	position: relative;
+}
+
+#blog .place span {
+	color: #b82c1f;
+}
+
+#blog .place .bir {
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+
+#blog .place a{
+	text-decoration: none;
+	right: 0;
+	display: block;
+	color: #ba2e1f;
+	position: absolute;
+	margin-top: -30px;
+}
+
+#blog .place p {
+	margin-bottom: 60px;
+}
+
+
+#contact .giris input,.giris textarea{
+	display: block;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+	background: #F2F2F2;
+}
+
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #F2F2F2;
+    text-align: center;
+    font-family:Georgia,serif;
+}
+#footer .copy p{
+	text-align: left;
+	margin: 40px;
+	position: absolute;
+	color: #919191;
+	
+	
+}
+
+#footer .Temp p{
+	text-align: right;
+	position: relative;
+	margin: 40px;
+	color: #919191;
+
+}
+#contact{
+	padding-right: 20px;
+}
+#contact button:hover{
+	color:#BA2E1F;
+}
+
+
+
+
+
+
+
+
+
